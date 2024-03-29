@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(223, 219, 219);
+    padding: 30px 0px;
+
+}
+
+.navbar__lists {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.chercive {
+    width: 100%;
+    background-color: darkslategray;
+    padding: 100px 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerr{
+    width: 100%;
+    background-color: yellow;
+    padding: 100px 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.tek{
+    width: 50%;
+    height: 200px;
+    background-color: white;
+}
+.birinci {
+    width: 50%;
+    height: 200px;
+    background-color: white;
+}
+
+.ikinci {
+    width: 50%;
+    height: 200px;
+    background-color: white;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-color: darkorchid;
+    color: white;
+    display: flex;
+    padding: 40px 30px;
+    gap: 30px;
+
+}
+
+.banner2 {
+    width: 50%;
+    height: 300px;
+    background-color: yellow;
+}
+
+.banner3 {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: yellow;
+}
+
+.esas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 300px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.esas2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 300px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.sonuncu {
+    width: 100%;
+    background-color: aqua;
+    padding: 100px 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.esas>div {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(194, 158, 158);
+}
+
+.esas2>div {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(194, 158, 158);
+}
+
+.son1,
+.son2 {
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+}
